@@ -1,6 +1,9 @@
 #!/usr/bin/env python3
 # Copyright (c) Facebook, Inc. and its affiliates. All Rights Reserved.
 
+import sys
+sys.path.append('/content/SlowFast')
+
 """Wrapper to train and test a video classification model."""
 from slowfast.config.defaults import assert_and_infer_cfg
 from slowfast.utils.misc import launch_job
